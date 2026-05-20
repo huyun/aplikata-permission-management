@@ -1,0 +1,7 @@
+/target/
+/.classpath
+/.project
+/.settings/
+*.log
+application-dev.yml
+application-prod.yml
