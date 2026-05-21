@@ -1,0 +1,39 @@
+// src/assets/main.css (清理后)
+
+/* 1. 全局基础样式（按需保留） */
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+/* 增加权重，覆盖 PrimeVue 的 body 样式 */
+html body {
+  font-family: "Inter", sans-serif;
+}
+
+/* 2. 全局表格分隔线样式（按需保留） */
+.p-datatable .p-datatable-tbody > tr {
+  border-bottom: 1px solid #e2e8f0;
+}
+.p-datatable .p-datatable-thead > tr {
+  border-bottom: 2px solid #cbd5e1;
+}
+
+/* 注意：所有与 .p-checkbox 相关的自定义样式都应删除，让 PrimeVue Aura 主题接管。 */
+
+.user-invalid {
+  border-color: #f87274 !important;
+  box-shadow: 0 0 0 0.2rem rgba(248, 114, 116, 0.2);
+}
+.required-star {
+  color: #f87274;
+  margin-left: 4px;
+  font-weight: bold;
+}
+
+.p-confirmdialog .p-dialog-footer {
+  display: flex !important;
+  justify-content: space-between !important;
+  gap: 1rem !important;
+}
