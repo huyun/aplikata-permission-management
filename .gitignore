@@ -1,9 +1,9 @@
 # 后端忽略（相对于根目录的路径）
-backend/target/
-backend/*.log
-backend/.classpath
-backend/.project
-backend/.settings/
+backend/aplikata-springboot/target/
+backend/aplikata-springboot/*.log
+backend/aplikata-springboot/.classpath
+backend/aplikata-springboot/.project
+backend/aplikata-springboot/.settings/
 
 # 前端忽略
 frontend/node_modules/
