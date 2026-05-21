@@ -1,0 +1,18 @@
+# 后端忽略（相对于根目录的路径）
+backend/target/
+backend/*.log
+backend/.classpath
+backend/.project
+backend/.settings/
+
+# 前端忽略
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env.local
+frontend/.env.*.local
+
+# IDE 全局
+.idea/
+.vscode/
+.DS_Store
